@@ -512,7 +512,6 @@
   }
   .bill {
     position: absolute;
-    top: 6rem;
     right: 4.563rem;
     z-index: 1;
   }
