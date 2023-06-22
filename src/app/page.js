@@ -65,7 +65,7 @@ const page = () => {
           alt="sitting man"
           src="/Bill Sitting using laptop 1.png"
           width={470}
-          height={710}
+          height={500}
           className={styles.bill}
         />
         <Image
