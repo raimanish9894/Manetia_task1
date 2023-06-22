@@ -24,6 +24,7 @@
 
 .logo a {
   text-decoration: none;
+  color: #545454;
 }
 .navbardiv {
   font-size: 16px;
@@ -47,6 +48,7 @@
 
 .navbarList a {
   text-decoration: none;
+  color: #545454;
 }
 
 .activeLink {
