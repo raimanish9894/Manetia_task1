@@ -52,7 +52,7 @@
 }
 
 .activeLink {
-  color: #1090cb;
+  color: #1090cb!important
 }
 
 .activeLink::after {
