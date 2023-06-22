@@ -1,0 +1,79 @@
+.main_header {
+  padding: 0 3rem;
+  height: 6.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+.navbar_brand {
+  text-align: left;
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 29px;
+  font-weight: 700;
+  color: #1090cb;
+  line-height: 44px;
+  text-decoration: none;
+}
+
+.logo a {
+  text-decoration: none;
+}
+.navbardiv {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.navbarList {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 4.2rem;
+}
+
+.navbarItem {
+  height: 100%;
+  display: grid;
+  place-items: center;
+  white-space: nowrap;
+}
+
+.navbarList a {
+  text-decoration: none;
+}
+
+.activeLink {
+  color: #1090cb;
+}
+
+.activeLink::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #08d3bb;
+}
+
+.navbarItem {
+  position: relative;
+}
+
+.navbardiv {
+  position: relative;
+}
+
+.navbardiv:hover::before,
+.activeLink::before {
+  opacity: 1;
+}
